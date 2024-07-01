@@ -1142,3 +1142,29 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.07.01-01.59.02:903][  1]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.037285 secs
 [2024.07.01-01.59.03:062][  1]LogD3D12RHI: Cannot end block when stack is empty
 [2024.07.01-02.01.02:997][788]LogDerivedDataCache: C:/Users/ASUS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:18.271 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 9606 files in 11555 folders with total size 317 MiB.
+[2024.07.01-02.06.25:706][177]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.01-02.06.26:273][230]LogShaderCompilers: Display: ================================================
+[2024.07.01-02.06.26:273][230]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.07.01-02.06.26:273][230]LogShaderCompilers: Display: Total job queries 70, among them cache hits 8 (11.43%)
+[2024.07.01-02.06.26:273][230]LogShaderCompilers: Display: Tracking 55 distinct input hashes that result in 44 distinct outputs (80.00%)
+[2024.07.01-02.06.26:273][230]LogShaderCompilers: Display: RAM used: 1.16 MiB of 819.20 MiB budget. Usage: 0.14%
+[2024.07.01-02.06.26:273][230]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.02 s
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Job execution time: average 0.53 s, max 0.53 s
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Job life time (pending + execution): average 0.55 s, max 0.55
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Shader code size: average 29.887 KiB, min 29.887 KiB, max 29.887 KiB
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.55 s
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Average processing rate: 1.83 jobs/sec
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Total thread time: 0.136 s
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Total thread preprocess time: 0.037 s
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Percentage time preprocessing: 27.34%
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Effective parallelization: 0.25 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.14 sec, max 0.14 sec, min 0.14 sec)
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.14 sec, max 0.14 sec, min 0.14 sec)
+[2024.07.01-02.06.26:274][230]LogShaderCompilers: Display: ================================================
+[2024.07.01-02.06.26:385][240]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
